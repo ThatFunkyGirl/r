@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Speed Racer</title>
+    <!-- Lib -->
+    <script src="./lib/p5.min.js"></script>
+    <script src="./lib/p5.dom.min.js"></script>
+    <script src="./lib/p5.sound.min.js"></script>
+    <script src="./lib/p5.play.js"></script>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Firebase -->
+    <script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-database.js"></script>
+
+    <script>
+      var firebaseConfig = {
+  apiKey: "AIzaSyCF3aF1cQ2Z_oco_5G7GqHGkgc2nwmEMjU",
+  authDomain: "fruit-collector---debug-1058c.firebaseapp.com",
+  databaseURL: "https://fruit-collector---debug-1058c-default-rtdb.firebaseio.com",
+  projectId: "fruit-collector---debug-1058c",
+  storageBucket: "fruit-collector---debug-1058c.appspot.com",
+  messagingSenderId: "1082119577184",
+  appId: "1:1082119577184:web:e5587f52055bc1ee3bed05"
+};
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+    </script>
+  </head>
+  <body>
+    <script src="./js/game.js"></script>
+    <script src="./js/form.js"></script>
+    <script src="./js/player.js"></script>
+    <script src="./sketch.js"></script>
+  </body>
+</html>
